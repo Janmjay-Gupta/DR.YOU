@@ -1,0 +1,113 @@
+body{
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    font-family: 'Outfit';
+    
+    background: #CAD8F4;    
+}
+.logo{
+    position: absolute;
+    
+    width: fit-content;
+    height: fit-content;
+    left: 200px;
+    top: 100px;
+    
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    
+    color: #090808;    
+}
+
+.info1{
+    position: absolute;
+    
+    width: fit-content;
+    height: fit-content;
+    left: 1115px;
+    top: 115px;
+    
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    
+    color: #090808;
+}
+
+.info2{
+    position: absolute;
+    
+    width: fit-content;
+    height: fit-content;
+    left: 1280px;
+    top: 115px;
+    
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    
+    color: #090808;
+}
+form{
+    position: absolute;
+    left: 279px;
+    top: 207px;
+}
+input{
+    
+    border-radius: 30px;
+    width: 885px;
+    height: 57px;   
+    border: none; 
+}
+input[type=text] {
+    font-size: 25px;
+}
+input[type=submit]{
+    position: absolute;
+    width: 180px;
+    height: 61px;
+    left: 330px;
+    font-size: 25px; 
+
+}
+input[type=submit]:hover{
+    background-color: #2d4891;    
+} 
+label{
+    position: absolute;
+    width: fit-content;
+    height: fit-content;    
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    
+}
+
+a:link{
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
