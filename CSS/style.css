@@ -223,7 +223,7 @@ header {
     width: 23.5%;
     position: relative;
     min-height: 320px;
-    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(/Images/thyroid.jpg);
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(./Images/thyroid.jpg);
     background-size: cover;
     transition: 0.2s ease-out;
     text-align: center;
@@ -234,17 +234,17 @@ header {
 }
 
 .example-card:nth-child(2) {
-    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(/Images/lungs.jpg);
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(./Images/lungs.jpg);
     background-size: cover;
 }
 
 .example-card:nth-child(3) {
-    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(/Images/breast.jpg);
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(./Images/breast.jpg);
     background-size: cover;
 }
 
 .example-card:nth-child(4) {
-    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(/Images/kidney.jpg);
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(./Images/kidney.jpg);
     background-size: cover;
 }
 
