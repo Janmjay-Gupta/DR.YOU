@@ -9,7 +9,7 @@
 :root {
     --primary-text-color: #735751;
     --secondary-text-color: #a78a7f;
-    --btn-color: #f45f5f;
+    --btn-color: #984949;
     --btn-dark: #8c1c13;
     --dark: #1e1e1e;
     --grey:rgb(70, 68, 68);
@@ -260,10 +260,35 @@ header {
     color: white;
 }
 
+/* Cta section  */
+
+.cta-section {
+    margin-top: 80px;
+    padding: 60px 0px;
+    background-color: #183d56;
+}
+
+.cta-section-container {
+    
+    gap: 40px;
+    color: white;
+}
+
+.cta-section-container p {
+    color: white;
+    margin-top: 20px;
+}
+
+.cta-list {
+    margin-top: 40px;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 30px;
+}
 
 /* Footer section  */
 footer {
-    /* background-color: #ebf2fa; */
+    background-color: #ebf2fa;
     padding-block: 80px;
 }
 
